@@ -40,7 +40,7 @@ if st.button("Predict"):
 
 from pyngrok import ngrok, conf
 
-NGROK_AUTH_TOKEN = "YOUR_NGROK_AUTH_TOKEN"
+NGROK_AUTH_TOKEN = "336WhJIraVwBtUEjImXA1FKEW2K_3UG71zajqVPVe4t2ZVrz6"
 conf.get_default().auth_token = NGROK_AUTH_TOKEN
 
 ngrok.kill()  # close old tunnels
